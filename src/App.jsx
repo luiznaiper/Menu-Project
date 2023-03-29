@@ -1,5 +1,13 @@
+import Title from './Title'
+
 function App() {
-  return <h1>Hola</h1>
+  return (
+    <main>
+      <section className="menu">
+        <Title text="our menu" />
+      </section>
+    </main>
+  )
 }
 
 export default App
